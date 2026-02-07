@@ -1,0 +1,12 @@
+// Q. Print HALF-PYRAMID pattern 
+public class java_3 {
+    public static void main(String args[]) {
+        int n = 4;                                                      // no. of rows
+        for(int line = 1; line<=n; line++) {                            
+            for(int number = 1; number<=line; number++){
+                System.out.print(number);
+            }
+            System.out.println();
+        }
+    }
+}
